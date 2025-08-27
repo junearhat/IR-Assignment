@@ -26,7 +26,7 @@ USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTM
 MAX_RETRIES = 3
 PAGE_TIMEOUT = 30  # seconds
 CRAWLED_DATA_FILE = "coventry_publications.json"
-POLITE_DELAY = 2  # Reduced default delay, will be overridden by robots.txt if needed
+POLITE_DELAY = 3  # Reduced default delay, will be overridden by robots.txt if needed
 
 # function to Fetch author name and profile url from publication url
 def fetch_publication_author(soup, base_url):  
